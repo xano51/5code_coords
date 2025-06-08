@@ -2,10 +2,10 @@ $(document).ready(function() {
     function ToggleCoordsBox(action) {
         if (action === "opencoordsbox") {
             $("#menu").fadeIn(500);
-            $("body").css('cursor', 'default'); // Ustaw kursor domyślny
+            $("body").css('cursor', 'default');
         } else if (action === "closecoordsbox") {
             $("#menu").fadeOut(500);
-            $("body").css('cursor', 'none'); // Ukryj kursor, gdy UI jest niewidoczne
+            $("body").css('cursor', 'none');
         }
     }
 
