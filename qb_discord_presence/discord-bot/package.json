@@ -1,0 +1,13 @@
+{
+  "name": "qb-discord-status-bot",
+  "version": "1.0.0",
+  "description": "Discord bot status for FiveM/QBCore server",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.17.3"
+  }
+}
